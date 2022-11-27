@@ -22,9 +22,9 @@ python train_teacher_badnets.py \
     --target_class 9 
 ```
 
-After training, the backdoored model and the training log files is placed under folder "train_teacher_badnets_cifar10_resnet18_e_200_tri1_3x3_t9_0_0_n300_results".
+After training, the backdoored model and the training log files are placed under folder "train_teacher_badnets_cifar10_resnet18_e_200_tri1_3x3_t9_0_0_n300_results".
 
-Then, for backdoor erasing with DHBE, just take this path as the "input_dir" augment:
+Then, for backdoor erasing with DHBE, just run the DHBE_train.py script and use this path as the "input_dir" augment:
 
 ## Step 2: DHBE backdoor erasing.
 
